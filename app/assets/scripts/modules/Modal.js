@@ -22,9 +22,7 @@ class Modal{
     }
 
     keyPressHandler(e){
-        if(e.keyCode == 27){
-            this.closeModal();
-        }
+        if(e.keyCode == 27){ this.closeModal();}
     }
 
     openModal(){
