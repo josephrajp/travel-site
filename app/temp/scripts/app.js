@@ -11206,6 +11206,7 @@
 	        this.headerTriggerElement = (0, _jquery2.default)('.large-hero__title');
 	        this.pageSections = (0, _jquery2.default)('.page-section');
 	        this.headerLinks = (0, _jquery2.default)('.primary-nav a');
+	        this.homeLink = (0, _jquery2.default)('.site-header__logo');
 	        this.createHeaderWayPoint();
 	        this.createPageSectionWayPoints();
 	        this.addSmoothScrolling();
@@ -11223,6 +11224,7 @@
 	        key: 'addSmoothScrolling',
 	        value: function addSmoothScrolling() {
 	            this.headerLinks.smoothScroll();
+	            this.homeLink.smoothScroll();
 	        }
 	    }, {
 	        key: 'createHeaderWayPoint',

@@ -639,10 +639,18 @@ a{
     padding: 1.2rem 0;
 }
 
+.page-section--top{
+  padding:0;
+}
+
 @media (min-width: 800px) {
 
   .page-section {
     padding: 4.5rem 0;
+  }
+
+  .page-section--top {
+    padding: 0;
   }
 }
 
@@ -1456,8 +1464,8 @@ a{
   background-color: #d59541;
   display: inline-block;
   margin: 0 5px 5px 5px;
-  width: 33%;
-  height: 33%;
+  width: 100px;
+  height: 100px;
   position: relative;
 }
 

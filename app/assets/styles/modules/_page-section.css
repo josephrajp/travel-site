@@ -1,8 +1,15 @@
 .page-section{
     padding: 1.2rem 0;
 
+    &--top{
+        padding:0;
+    }
+
     @mixin atMedium{
         padding: 4.5rem 0;
+        &--top{
+        padding:0;
+    }
     }
 
     &--no-b-padding-until-medium{
